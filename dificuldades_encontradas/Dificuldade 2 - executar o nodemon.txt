@@ -1,0 +1,12 @@
+Dificuldade 2 / data 15/04/2021 Aula 129
+
+erro:nodemon.ps1 não pode ser carregado porque a execução de scripts foi 
+desabilitada neste sistema. para obter mais informações, consulte about_execution_policies em
+
+
+tive dificuldade de executar o nodemon.
+para isso preidei acessar o PowerShell como administrador
+e executar o comando
+Set-ExecutionPolicy RemoteSigned (usei esse)
+ou
+Set-ExecutionPolicy Bypass

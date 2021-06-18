@@ -1,0 +1,11 @@
+horas assistidas 178 min = 2 horas e 58 min
+
+178+7+14+11+13+19 = 242 min = 4:02
+
+242+6+11+8 = 267 min = 4:27
+
+267+9+3+4+5+2+4+2+7 = 303 min = 5:03
+
+303+6+7+8+4+9+6+5+5+6+8+18 = 385 min = 6:25
+
+javascript, html, css, ajax, gulp,

@@ -1,0 +1,7 @@
+1 - instalação do vscode
+2 - instalação do node
+3 - axios, nodemon, lodesh, 
+4 - pakage.json - (digitar no terminal na pasta do projeto  'npm init -y',
+5 - instalar o express - (digitat no terminal pasta do projeto 'npm i --save express@4.16.2 -E'
+6 - postman - (https://www.postman.com/downloads/)
+7 - agendamento de tarefas - (npm i node-schedule@1.3.0 -E)
