@@ -1,0 +1,27 @@
+{
+  "name": "exercicios-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "1.10.2",
+    "express": "4.16.3",
+    "lodash": "^4.17.21",
+    "node-schedule": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo7321/EstudosWebModerno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo7321/EstudosWebModerno/issues"
+  },
+  "homepage": "https://github.com/eduardo7321/EstudosWebModerno#readme"
+}
