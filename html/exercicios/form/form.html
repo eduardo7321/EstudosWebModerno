@@ -6,21 +6,52 @@
     <textarea name="bio" id="" cols="30" rows="10"></textarea>
     <div>
     <input type="password" name="senha">
-        <input type="radio" name="tipo"> Admin
-        <input type="radio" name="tipo"> Regular
+        <input type="radio" name="admin"> Admin
+        <input type="radio" name="regular"> Regular
+        <input type="radio" name="professor"> Professor
     </div>
+    <div>
+        <input type="checkbox" name="ativo"> Ative
+    </div>
+
+    <select name="estado">
+        <option value="">Selecione o Estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+    </select>
+
+    <select name="interesses" multiple size="7">
+        <option value="js">Javascript</option>
+        <option value="java">Java</option>
+        <option value="php">PHP</option>
+        <option value="python">Python</option>
+        <option value="go">Go</option>
+        <option value="c">C</option>
+    </select>
 
     <button>Incluir</button>
 </form>
 
 <style>
     input,
-    textarea {
+    textarea,
+    select {
         display: block;
         margin-bottom: 30px ;
     }
 
-    input[type=radio]{
+    input[type=radio],
+    input[type=checkbox]{
         display: inline;
     }
 </style>
