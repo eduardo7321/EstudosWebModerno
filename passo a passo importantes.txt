@@ -5,3 +5,4 @@
 5 - instalar o express - (digitat no terminal pasta do projeto 'npm i --save express@4.16.2 -E'
 6 - postman - (https://www.postman.com/downloads/)
 7 - agendamento de tarefas - (npm i node-schedule@1.3.0 -E)
+8 - 
