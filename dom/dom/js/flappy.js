@@ -30,7 +30,7 @@ function ParDeBarreiras(altura, abertura, x) {
 
     this.sortearAbertura = () => {
         const alturaSuperior = Math.random() * (altura - abertura)
-        const alturaInferior = altura - abertura - 0 - alturaSuperior // deifeito aqui + 100
+        const alturaInferior = altura - abertura - alturaSuperior // deifeito aqui + 100
         this.superior.setAltura(alturaSuperior)
         this.inferior.setAltura(alturaInferior)
     }
@@ -86,7 +86,7 @@ function Passaro(alturaJogo) {
     window.onkeyup = e => voando = false
 
     this.animar = () => {
-        const novoY = this.getY() + (voando ? 7 : -5)
+        const novoY = this.getY() + (voando ? 8 : -5)
         const alturaMaxima = alturaJogo - this.elemento.clientHeight
 
         if (novoY <= 0) {
@@ -187,6 +187,7 @@ function FlappyBird() {
 
                     body.appendChild(gameOver)
                     console.log("Game Over")
+                    //this.setY(alturaJogo / 2)
                   //  GameOver()
                     clearInterval(temporizador)
 
