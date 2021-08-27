@@ -9,13 +9,22 @@
 </head>
 
 <body>
-    <h1>Plugin #02 - Temporizador</h1>
-    <div></div>
+    <h1>Hora do almoço</h1>
+    <div id="almoco"></div>
+    <h1>Hora de largar</h1>
+    <div id="largar"></div>
     <script src="js/temporizador.js"></script>
     <script>
-        $('div').temporizador({
-            mensagem: 'Em breve um novo site para você',
-            horario: '23:25:05'
+        $('#almoco').temporizador({
+            mensagem: 'Hora do almoço',
+            horario: '11:50:00'
         }).hide().fadeIn(3000)
+
+        $('#largar').temporizador({
+            mensagem: 'Hora de largar',
+            horario: '17:00:00'
+        }).hide().fadeIn(3000)
+
+
     </script>
 </body>
