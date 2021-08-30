@@ -1,0 +1,2 @@
+//Exclui a pasta node-modules e atualizei o "node-sass" para a versão 4.13.0.
+//Abri o prompt de comando em modo Administrador. Executei o npm install --global windows-build-tools e depois  npm install e funcinou.
