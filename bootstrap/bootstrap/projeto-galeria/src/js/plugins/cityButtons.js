@@ -1,4 +1,5 @@
 import $ from 'jquery'
+
 import { onLoadHtmlSuccess } from '../core/includes'
 
 const duration = 600
@@ -18,22 +19,21 @@ function filterByCity(city) {
     })
 }
 
-$.fn.cityButtons = function() {
-    
-const cities = new Set
-$('[wm-city').each(function(i, e) {
-    cities.add($(e).attr('wm-city'))
-}) 
+$.fn.cityButtons = function() {    
+    const cities = new Set
+    $('[wm-city').each(function(i, e) {
+        cities.add($(e).attr('wm-city'))
+    }) 
 
-const btns = Array.from(cities).map(city => {
-    const btn = $('<button>')
-    .addClass(['btn', 'btn-info']).html(city)
-    btn.click(e => filterByCity(city))
-    return btn
-})
+    const btns = Array.from(cities).map(city => {
+        const btn = $('<button>')
+        .addClass(['btn', 'btn-info']).html(city)
+        btn.click(e => filterByCity(city))
+        return btn
+    })
 
-const btnAll = $('button')
-    .addClass(['btn', 'btn-info', 'active']).html('Todas')
+    const btnAll = $('<button>')
+        .addClass(['btn', 'btn-info', 'active']).html('Todas')
     btnAll.click(e => filterByCity(null))
     btns.push(btnAll)
 
@@ -45,7 +45,8 @@ const btnAll = $('button')
 }
 
 onLoadHtmlSuccess(function() {
-
-    $('[wm-city-buttons]').cityButtons()
+    $('[wm-city-buttons]').cityButtons()    
 })
+
+
 
