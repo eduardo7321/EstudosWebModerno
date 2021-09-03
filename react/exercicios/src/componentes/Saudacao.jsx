@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export default class Saudacao extends Component {
 
     state = {
+
         tipo: this.props.tipo,
         nome: this.props.nome
     }
@@ -13,6 +14,7 @@ export default class Saudacao extends Component {
 
     setNome(e) {        
         this.setState({ nome: e.target.value })
+
     }
 
     render() {
@@ -23,9 +25,12 @@ export default class Saudacao extends Component {
                 <hr />
                 <input type="text" placeholder="Tipo..."
                     value={tipo} onChange={e => this.setTipo(e)}/>
+
                 <input type="text" placeholder="Nome..." 
                     value={nome} onChange={e => this.setNome(e)}/>
             </div>
         )
     }
 }
+
+
