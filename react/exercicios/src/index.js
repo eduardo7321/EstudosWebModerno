@@ -17,9 +17,9 @@ import Filho from './componentes/Filho'
 ReactDOM.render(
     <div>        
         <Pai nome="eudedu" sobrenome="silva" >
-            <Filho nome="Filho1" sobrenome="Silva" />
-            <Filho nome="Filho2" sobrenome="Silva" />
-            <Filho nome="Filho3" sobrenome="Silva" />
+            <Filho nome="Filho1" />
+            <Filho nome="Filho2" />
+            <Filho nome="Filho3" />
         </Pai>
     </div>
     , document.getElementById('root'))
