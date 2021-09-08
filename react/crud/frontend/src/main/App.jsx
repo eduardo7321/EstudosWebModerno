@@ -13,6 +13,10 @@ export default props =>
         <Logo />
         <Nav />
         <Main icon="home" title="Início"
-            subtitle="Segundo Projeto do capítulo de React" />
+            subtitle="Segundo Projeto do capítulo de React">
+            <div className="display-4">Bem Vindo!</div>
+            <p className="mb-0">Sistema para exemplificar a construção de um cadastro desenvolvido em React!</p>
+
+            </Main>
         <Footer />
     </div>
