@@ -1,11 +1,9 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "eduardo silva",
-        "email": "edu@gmail.com"
-    }, {
-        "id": 2,
-        "name": "Nome de teste",
-        "email": "nometeste@gmail.com"
-    }]
+  "users": [
+    {
+      "name": "Eduardo Silva",
+      "email": "eduardo.jose184@gmail.com",
+      "id": 1
+    }
+  ]
 }
